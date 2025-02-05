@@ -4,23 +4,18 @@ public class CalculaMedia {
 
     public static void main(String[] args) {
 
-        double nota1 = 10;
-        double nota2  = 9;
-        double nota3 = 8;
-        double nota4 = 7;
+        int nota1 = 10;
+        int nota2  = 9;
+        int nota3 = 8;
+        int nota4 = 7;
+
+        double total = nota1 + nota2 + nota3 + nota4;
 
         int media = 4;
 
-        double media1 = nota1 / media;
-        double media2 = nota2 / media;
-        double media3 = nota3 / media;
-        double media4 = nota4 / media;
+        double media1 = total / media;
 
-        System.out.println("Media 1: " + media1
-                            + "\nMédia 2: " + media2
-                            + "\nMédia 3: " + media3
-                            + "\nMédia 4: " + media4);
+        System.out.println("Media: " + media1);
 
     }
-
 }
